@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    background: radial-gradient(circle at center, #0f0f1b, #1a1a2e);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    overflow-x: hidden;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background: url('hero-video.mp4') no-repeat center center/cover;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+    animation: fadeIn 1s ease-in-out;
+    padding-bottom: 30px;
+}
+h1 {
+    font-size: 3.5rem;
+    background: -webkit-linear-gradient(45deg, #ff6600, #ffcc00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+}
+.cta-btn {
+    background: linear-gradient(45deg, #ff6600, #ffcc00);
+    color: black;
+    padding: 15px 30px;
+    font-size: 1.4rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 0 15px rgba(255, 102, 0, 0.8);
+    margin-top: 20px;
+}
+.cta-btn:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 20px rgba(255, 204, 0, 1);
+}
+section {
+    padding: 50px 10px;
+}
+.trusted-by {
+    margin-top: 40px;
+}
+.trusted-by img {
+    width: 80%;
+    max-width: 400px;
+    margin: 20px 0;
+}
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 10px;
+}
+.feature {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.testimonials {
+    margin-top: 40px;
+}
+.live-demo {
+    margin-top: 40px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+input {
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    margin-top: 10px;
+}
+button {
+    margin-top: 10px;
+}
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 0.9rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+}
