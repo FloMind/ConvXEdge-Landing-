@@ -14,6 +14,11 @@
         <button class="cta-btn">Accédez à la Bêta Privée</button>
     </header>
 
+    <section class="trusted-by">
+        <h2>Utilisé par :</h2>
+        <img src="logos.png" alt="Entreprises qui nous font confiance">
+    </section>
+
     <section class="features">
         <div class="feature">
             <h3>🚀 Écriture ultra-rapide</h3>
@@ -35,8 +40,22 @@
         <p><em>"Un game-changer pour les copywriters !"</em> - Sophie Martin</p>
     </section>
 
+    <section class="live-demo">
+        <h2>Testez ConvXEdge en direct</h2>
+        <input type="text" id="user-input" placeholder="Écrivez un titre produit...">
+        <button onclick="generateText()">Générer</button>
+        <p id="generated-text"></p>
+    </section>
+
+    <div class="exit-popup" id="exitPopup">
+        <p>🔥 Avant de partir, profitez d'une offre exclusive sur ConvXEdge !</p>
+        <button onclick="closePopup()">Je veux en profiter</button>
+    </div>
+
     <footer>
         <p>&copy; 2025 ConvXEdge. Tous droits réservés.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
