@@ -6,6 +6,9 @@
     <title>ConvXEdge - L'IA qui écrit pour vendre</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
+    <script defer src="analytics.js"></script>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
     <header>
@@ -36,8 +39,7 @@
 
     <section class="testimonials">
         <h2>Ce que disent nos utilisateurs</h2>
-        <p><em>"ConvXEdge a doublé mes conversions en 2 semaines !"</em> - Jean Dupont</p>
-        <p><em>"Un game-changer pour les copywriters !"</em> - Sophie Martin</p>
+        <div id="testimonials-container"></div>
     </section>
 
     <section class="live-demo">
@@ -56,6 +58,6 @@
         <p>&copy; 2025 ConvXEdge. Tous droits réservés.</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="service-worker.js"></script>
 </body>
 </html>
