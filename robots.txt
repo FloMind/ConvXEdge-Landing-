@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://flomind.github.io/sitemap.xml
