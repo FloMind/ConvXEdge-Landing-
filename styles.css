@@ -6,7 +6,7 @@
     scroll-behavior: smooth;
 }
 body {
-    background: radial-gradient(circle at center, #1a1a2e, #16213e);
+    background: radial-gradient(circle at center, #0f0f1b, #1a1a2e);
     color: white;
     text-align: center;
     padding: 20px;
@@ -23,7 +23,7 @@ header {
     animation: fadeIn 1s ease-in-out;
 }
 h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     background: -webkit-linear-gradient(45deg, #ff6600, #ffcc00);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -31,15 +31,15 @@ h1 {
 .cta-btn {
     background: linear-gradient(45deg, #ff6600, #ffcc00);
     color: black;
-    padding: 15px 25px;
-    font-size: 1.2rem;
+    padding: 15px 30px;
+    font-size: 1.4rem;
     border: none;
     cursor: pointer;
     border-radius: 30px;
     transition: transform 0.3s, box-shadow 0.3s;
-    box-shadow: 0 0 10px rgba(255, 102, 0, 0.7);
+    box-shadow: 0 0 15px rgba(255, 102, 0, 0.8);
 }
 .cta-btn:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 15px rgba(255, 204, 0, 0.9);
+    transform: scale(1.08);
+    box-shadow: 0 0 20px rgba(255, 204, 0, 1);
 }
